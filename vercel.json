@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/.well-known/atproto-did",
+      "destination": "/static/bsky_auth",
+      "permanent": true
+    }
+  ]
+}

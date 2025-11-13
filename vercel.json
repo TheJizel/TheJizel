@@ -10,6 +10,10 @@
     {
       "source": "/.well-known/atproto-did",
       "destination": "/static/bsky_auth"
+    },
+    {
+      "source": "/clinton",
+      "destination": "/static/clinton.jpg"
     }
   ]
 }

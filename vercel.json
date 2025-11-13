@@ -4,6 +4,11 @@
       "source": "/.well-known/atproto-did",
       "destination": "/static/bsky_auth",
       "permanent": true
+    },
+    {
+      "source": "/clinton",
+      "destination": "/static/clinton.jpg",
+      "permanent": true
     }
   ]
 }

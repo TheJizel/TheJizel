@@ -1,14 +1,15 @@
 {
   "redirects": [
     {
-      "source": "/.well-known/atproto-did",
-      "destination": "/static/bsky_auth",
-      "permanent": true
-    },
+      "source": "/",
+      "destination": "https://bsky.app/profile/thejizel.com",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
     {
-      "source": "/clinton",
-      "destination": "/static/clinton.jpg",
-      "permanent": true
+      "source": "/.well-known/atproto-did",
+      "destination": "/static/bsky_auth"
     }
   ]
 }

@@ -1,19 +1,4 @@
 {
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "https://bsky.app/profile/thejizel.com",
-      "permanent": false
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/.well-known/atproto-did",
-      "destination": "/static/bsky_auth"
-    },
-    {
-      "source": "/clinton",
-      "destination": "/static/clinton.jpg"
-    }
-  ]
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "bunVersion": "1.x"
 }

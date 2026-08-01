@@ -1,0 +1,28 @@
+{
+  "name": "thejizel",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --bun next dev",
+    "build": "bun run --bun next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "16.2.12",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.6",
+    "@eslint/js": "10.0.1",
+    "@next/eslint-plugin-next": "16.2.12",
+    "@socketsecurity/bun-security-scanner": "1.1.2",
+    "@types/node": "26.1.2",
+    "@types/react": "19.2.18",
+    "eslint": "10.8.0",
+    "eslint-config-next": "16.2.12",
+    "jiti": "2.7.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.65.0"
+  }
+}

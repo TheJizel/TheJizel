@@ -1,7 +1,5 @@
-import { NextRequest } from 'next/server'
+import { redirect } from 'next/navigation'
 
-import { redirect } from 'next/navigation';
-
-export async function GET (_req: NextRequest) {
+export async function GET () {
     redirect('/')
 }
